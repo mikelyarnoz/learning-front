@@ -1,0 +1,15 @@
+article h2 {
+  color: red; }
+
+header {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background: transparent url("../../img/Unknown-6.jpeg") center no-repeat;
+  background-size: 100%; }
+
+@media only screen and (max-width: 400px) {
+  body {
+    background: red !important; } }
+
+/*# sourceMappingURL=general.css.map */
