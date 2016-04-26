@@ -1,3 +1,54 @@
+/* general */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, html {
+  height: 100%; }
+
 body {
   font-size: 62.5%; }
 
@@ -11,7 +62,7 @@ h2 {
   color: #000;
   display: block;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin: 50px 0px 100px 0px;
   font-weight: bold;
   font-size: 3em; }
@@ -29,29 +80,61 @@ header {
   text-align: center;
   color: #fff;
   width: 100%;
-  height: 500px;
+  height: 100%;
+  /* gruncho's attack */
   display: block;
   background: transparent url("../../img/Unknown-6.jpeg") center no-repeat;
-  background-size: 100%;
+  background-size: auto 100%;
   min-height: 600px; }
-
-@media only screen and (max-width: 400px) {
-  body {
-    background: red !important; } }
-header a {
-  color: #fff;
-  text-align: center;
-  display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif;
-  letter-spacing: 6px;
-  border-style: solid;
-  border-width: 1.5px;
-  padding: 10px 100px;
-  margin-top: 50px;
-  text-decoration: none; }
+  header a {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-family: "Open Sans Condensed", sans-serif;
+    letter-spacing: 6px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px 120px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 1.3em; }
 
 span {
   border-style: solid;
   border-width: 2px 0px 2px 0px; }
+
+.box {
+  width: 100%;
+  height: 100%;
+  background: black url("../../img/Unknown-6.jpeg") center no-repeat fixed;
+  background-size: auto 100%; }
+  .box img {
+    display: none; }
+
+.icon {
+  display: none;
+  /* no hace falta */
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background: red url("../../img/icon.png") center no-repeat;
+  background-size: 100%; }
+
+/* list */
+ul.list {
+  width: 100%;
+  display: block;
+  background: green;
+  overflow: hidden; }
+  ul.list li {
+    width: 50%;
+    display: block;
+    text-align: center;
+    font-size: 2rem; }
+
+@media only screen and (max-width: 1400px) {
+  .box img {
+    width: auto !important;
+    height: 100% !important; } }
 
 /*# sourceMappingURL=general.css.map */
