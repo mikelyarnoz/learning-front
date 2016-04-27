@@ -1,3 +1,7 @@
+.wrapper {
+	overflow: hidden;
+}
+
 body, html {
 	height: 100%;
 }
@@ -11,8 +15,9 @@ $principal: 'Open Sans Condensed', sans-serif;
 h1 {
 	display: block;
 	background: transparent url('../../img/Unknown.png') center  no-repeat;
-	height: 300px;
+	height: 200px;
 	text-indent: -9999px;
+	background-size: 250px 250px;
 }
 
 h2 {
@@ -37,14 +42,16 @@ h4 {
 
 header {
 	padding: 50px 0;
+	margin: 0 auto;
 	text-align: center;
 	color: #fff;
+	background-color: #000;
 	width: 100%;
-	height: 100%; /* gruncho's attack */
+	height: 600px; /* gruncho's attack */
 	display: block;
-	background: transparent url('../../img/Unknown-6.jpeg') center  no-repeat;
-	background-size: auto 100%;
-	min-height: 600px;
+	background: #000 url('../../img/Unknown-6.jpeg') center  no-repeat;
+	background-size: 600px width;
+	
 	a {
 		color:#fff;
 		text-align: center;
@@ -59,8 +66,40 @@ header {
 		font-size: 1.3em;
 	}
 }
+.videos {
+	height:900px;
+	text-align: center;
+	overflow: hidden;
 
+}
+article {
+	display: block;
+	width: 33.3%;
+	height: 900px;
+	float: left;
 
+	background: transparent url('../../img/Unknown-5.jpeg') center no-repeat;
+	background-size: 900px width;
+
+}
+ul {
+	text-indent: -9999px;
+	background-color: red;
+
+	li {
+		width: 100px;
+		float: left;
+		a {
+			display: block;
+			background: transparent url('../../img/Unknown-1.png') no-repeat;
+			background-position: -377px 0;
+			height: 160px;
+			background-color: blue;
+			background-size: 100px width;
+			margin: auto;
+		}
+	}	
+}
 
 span {
 	border-style: solid;

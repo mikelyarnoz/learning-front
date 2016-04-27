@@ -46,6 +46,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.wrapper {
+  overflow: hidden; }
+
 body, html {
   height: 100%; }
 
@@ -55,8 +58,9 @@ body {
 h1 {
   display: block;
   background: transparent url("../../img/Unknown.png") center no-repeat;
-  height: 300px;
-  text-indent: -9999px; }
+  height: 200px;
+  text-indent: -9999px;
+  background-size: 250px 250px; }
 
 h2 {
   color: #000;
@@ -77,15 +81,16 @@ h4 {
 
 header {
   padding: 50px 0;
+  margin: 0 auto;
   text-align: center;
   color: #fff;
+  background-color: #000;
   width: 100%;
-  height: 100%;
+  height: 600px;
   /* gruncho's attack */
   display: block;
-  background: transparent url("../../img/Unknown-6.jpeg") center no-repeat;
-  background-size: auto 100%;
-  min-height: 600px; }
+  background: #000 url("../../img/Unknown-6.jpeg") center no-repeat;
+  background-size: 600px width; }
   header a {
     color: #fff;
     text-align: center;
@@ -99,38 +104,37 @@ header {
     text-decoration: none;
     font-size: 1.3em; }
 
+.videos {
+  height: 900px;
+  text-align: center;
+  overflow: hidden; }
+
+article {
+  display: block;
+  width: 33.3%;
+  height: 900px;
+  float: left;
+  background: transparent url("../../img/Unknown-5.jpeg") center no-repeat;
+  background-size: 900px width; }
+
+ul {
+  text-indent: -9999px;
+  background-color: red; }
+  ul li {
+    width: 100px;
+    float: left; }
+    ul li a {
+      display: block;
+      background: transparent url("../../img/Unknown-1.png") no-repeat;
+      background-position: -377px 0;
+      height: 160px;
+      background-color: blue;
+      background-size: 100px width;
+      margin: auto; }
+
 span {
   border-style: solid;
   border-width: 2px 0px 2px 0px; }
-
-.box {
-  width: 100%;
-  height: 100%;
-  background: black url("../../img/Unknown-6.jpeg") center no-repeat fixed;
-  background-size: auto 100%; }
-  .box img {
-    display: none; }
-
-.icon {
-  display: none;
-  /* no hace falta */
-  width: 120px;
-  height: 120px;
-  margin: 0 auto;
-  background: red url("../../img/icon.png") center no-repeat;
-  background-size: 100%; }
-
-/* list */
-ul.list {
-  width: 100%;
-  display: block;
-  background: green;
-  overflow: hidden; }
-  ul.list li {
-    width: 50%;
-    display: block;
-    text-align: center;
-    font-size: 2rem; }
 
 @media only screen and (max-width: 1400px) {
   .box img {
