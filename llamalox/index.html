@@ -2,147 +2,183 @@
 <html>
 <head>
 
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
 
-<title>LlámaloEquis</title>
+	<title>LlámaloEquis</title>
 
-<!-- Layout style -->
-<link href="assets/scss/general.css" rel="stylesheet" type="text/css" media="screen" />
+	<!-- Layout style -->
+	<link href="assets/scss/general.css" rel="stylesheet" type="text/css" media="screen" />
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-	
 	<header>
 		<h4>
 			LaDïeresis presenta
 		</h4>
 		<h1>
 			LOGO
-		</h1>
-
+		</h1>	
 		<a href="#" class="buton">
 			CLICK ME
 		</a>
-	</header>
-	<main>
-		<section>
-			<h2>
-				<span>
-					SINGLE
-				</span>
-			</h2>
-			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243129005&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-		</section>				
-		<section class="videos">
-			<h2>
-				<span>
-					VIDEOCLIPS
-				</span>
-			</h2>
-				<div class="wrapper">
-					<article class="videoUno">
-						<h4>
-							Video #1
-						</h4>
-						<p class="bodyText">
-							Lo Tengo
-						</p>
-						<p class="boxed">
-							VER VIDEO
-						</p>
-					</article>
-					<article class="videoDos">
-						<h4>Video #2</h4>
-						<p class="bodyText">Rompo tus esquemas</p>
-						<p class="Italic">con Juan Profundo</p>
-						<p class="boxed">VER VIDEO</p>
-					</article>
-					<article class="videoTres">
-						<h4>Video #3</h4>
-						<p class="bodyText">Tiro la toalla</p>
-						<p class="Italic">con JOWEED e IZZY</p>
-						<p class="boxed">VER VIDEO</p>
-					</article>	
-				</div><!--wrapper-->							
-		</section>
-		<section>
-			<h2>
-				<span>
-					ÁLBUM DEBUT DE XËRO YSERN
-				</span>
-			</h2>
-			<div class"albumDebut">
+	</header>	
+	<section class="player">
+		<h2>
+			<span>
+				SINGLE
+			</span>
+		</h2>
+		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243129005&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	</section>				
+	<section class="videos">
+		<h2>
+			<span>
+				VIDEOCLIPS
+			</span>
+		</h2>
+		<div class="video-box">
+			<div class="video-box__column">
+				<a href="" class="video-box__btn left">
+					<h4>
+						VÍDEO #01
+					</h4>
+					<P class='bodytext'>
+						Lo tengo
+					</P>
+					<P class='boxed'>
+						VER VÍDEO
+					</P>
+				</a>
+			</div>
+			<div class="video-box__column">
+				<a href="" class="video-box__btn center">
+					<h4>
+						VÍDEO #02
+					</h4>
+					<P class='bodytext'>
+						Rompo tus esquemas
+					</P>
+					<P class='italic'>
+						Con Juan Profundo
+					</P>
+					<P class='boxed'>
+						VER VÍDEO
+					</P>
+				</a>
+			</div>
+			<div class="video-box__column">
+				<a href="" class="video-box__btn right">
+					<h4>
+						VÍDEO #03
+					</h4>
+					<P class='bodytext'>
+						Tira la toalla
+					</P>
+					<P class='italic'>
+						Con JOWEED e IZZY
+					</P>
+					<P class='boxed'>
+						VER VÍDEO
+					</P>
+				</a>
+			</div>
+		</div><!-- video-box -->
+	</section>	
+	<section class="album">
+		<h2>
+			<span>
+				ÁLBUM DEBUT DE XËRO YSERN
+			</span>
+		</h2>
+		<article class="credits">
+			<div class="columna">
 				<h4>PRODUCCIONES DE:</h4>
-				<p class="bodyText">BHIXO, S1MON F3NIXXX, JUAN PROFUNDO, BAGHIRA, SHOLO 	TRUTH, FERRÁN MDE, DJ SAYYA, DJ RUNE.
+				<p class="bodytext">BHIXO, S1MON F3NIXXX, JUANPROFUNDO, BAGHIRA, 	SHOLO 	TRUTH, FERRÁN MDE, DJSAYYA, DJ RUNE.
 				</p>
 				<h4>COLABORACIONES DE</h4>
-				<p class="bodyText">IZZY, JOWEED, PUTOLARGO, LEGENDARIO, ALANA SINKËY, 	JUAN PROFUNDO, KERKICH.</p>
+				<p class="bodytext">IZZY, JOWEED, PUTOLARGO,LEGENDARIO, ALANA 	SINKËY, 	JUAN PROFUNDO, KERKICH.</p>
 				<h4>GRABADO POR:</h4>
-				<p class="bodyText">DJ TEMBE EN LA HERRADURA ESTUDIO.</p>
+				<p class="bodytext">DJ TEMBE EN LA HERRADURA ESTUDIO.</p>
 				<h4>MEZCLADO POR:</h4>
-				<p class="bodyText">JORGE GASCÓN.</p>
+				<p class="bodytext">JORGE GASCÓN.</p>
 			</div>	
-		</section>
-	</main>	
+		</article>	
+	</section>
 	<footer>
 		<h2>
 			<span>
 				AGRADECIMIENTOS
 			</span>
 		</h2>	
-		<ul>
-			<li>
+		<div class="wrapper logos">
+			<div class="logos">
 				<a href="#" class="friend f01" target="_blank">
 					Holi
 				</a>
-			</li>	
-			<li>
+			</div>
+			<div class="logos">
 				<a href="#" class="friend f02" target="_blank">
 					Holi
 				</a>
-			</li>				
-			<li>
+			</div>	
+			<div class="logos">
 				<a href="#" class="friend f03" target="_blank">
 					Holi
 				</a>
-			</li>						
-			<li>
+			</div>	
+			<div class="logos">
 				<a href="#" class="friend f04" target="_blank">
 					Holi
 				</a>
-			</li>			
-			<li>
+			</div>	
+			<div class="logos">
 				<a href="#" class="friend f05" target="_blank">
 					Holi
 				</a>
-			</li>	
-			<li>
+			</div>	
+			<div class="logos">
 				<a href="#" class="friend f06" target="_blank">
 					Holi
 				</a>
-			</li>	
-			<li>
+			</div>	
+			<div class="logos">
 				<a href="#" class="friend f07" target="_blank">
 					Holi
 				</a>
-			</li>	
-		</ul>	
+			</div>		
+		</div>	
 	</footer>	
 	<aside>
-		<article>
-			<img src="img/Unknown-3.jpeg"/>
-			<h5>Mezcla y mástering (2016)</h5>
-			<h5>Contacto para conciertos, videoclips, discos etc.
-			Por email info@ladieresis.net
-			o al tlf. (+034) 91 545 63 44</h5>
-		</article>
-		<article>
-			<img src="img/Unknown.jpeg"/>
-			<img src="img/Unknown-2.png"/>
-			<h5>2016 @ LLÁMALOEQUIS.com</h5>
-			<h6>Diseño y desarrollo web por <a href="#" class="noStyle">codecantor.</h6>
-		</article>			
+		<div class="aside-box">
+			<div class="aside-box__column">
+				<div class="aside-box__btn left">
+					<P class='destacado'>
+						Muy pronto
+					</P>
+					<P class='bodytext'>
+						Mezcla y mástering (2016)
+					</P>
+					<P class='destacado'>
+						LaDiëresis
+					</P>
+					<P class='bodytext'>
+						Contacto para conciertos, videoclips, discos etc.<br/>
+						Por email <a href='#'>info@ladieresis.net</a><br/>
+						o al tlf. (+034) 91 545 63 44
+					</P>
+				</div>
+			</div>
+			<div class="aside-box__column">
+				<div class="aside-box__btn right">
+					<a href="#" class="logo" target="_blank">
+						Holi
+					</a>
+					
+				</div>
+			</div>
+		</div>	
+	</aside>	
 </body>
 </html>
