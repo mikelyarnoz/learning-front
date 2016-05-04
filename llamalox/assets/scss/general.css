@@ -262,10 +262,10 @@ aside {
       color: #fff; }
   .aside-box .left {
     background: #000 url("../../img/unknown.jpeg") center no-repeat;
-    background-size: height width; }
+    background-size: 100%; }
   .aside-box .right {
     background: #000 url("../../img/unknown-1.jpeg") center no-repeat;
-    background-size: height width; }
+    background-size: 100%; }
 
 a.logo {
   margin: 0 auto;
