@@ -1,0 +1,57 @@
+/* ----------------ASIDE---------------- */
+aside {
+	overflow: hidden;
+	height: 100%;
+}
+.aside-box {
+	height: 100%,;
+	overflow: hidden;
+	text-align: center;
+	&__column {
+		height: 100%;
+		float: left;
+		width: 50%;
+	}
+	&__btn {
+		padding-top: 300px;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: red;
+		background: #000 url('../../img/unknown-6.jpeg') center  no-repeat;
+		background-size: 600px width;
+		.bodytext {
+			font-family: $principal;
+			font-size: 2.8em;
+			color: #fff;
+			line-height: 170%;
+			margin-bottom: 20px;
+			a{
+				text-decoration: underline;
+				color: #fff;
+			}
+		}
+		.destacado {
+			font-family: 'Roboto', sans-serif;
+			font-size: 4em;
+			color: #fff;
+		}
+	}
+	.left {
+		background: #000 url('../../img/unknown.jpeg') center  no-repeat;
+		background-size: height width;
+	}
+	.right {
+		background: #000 url('../../img/unknown-1.jpeg') center  no-repeat;
+		background-size: height width;
+	}	
+}
+a.logo {
+	margin: 0 auto;
+	display: block;
+	height: 150px;
+	width: 150px;
+	text-indent: -9999px;
+	background: transparent url('../../img/unknown-2.png') center no-repeat;
+	background-size: 130px 130px;
+}
