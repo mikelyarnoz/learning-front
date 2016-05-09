@@ -1,0 +1,30 @@
+.wrapper__box--img {
+	overflow: hidden;
+	display: block;
+	height: 100%;
+	background: transparent url('../../img/unknown-2.jpeg') center fixed no-repeat;
+	background-size: 100%;
+	background-color: $negro;
+}
+
+.column {
+	padding: 100px 0 50px 0;
+	width: 80%;
+	margin:0 auto;
+	max-width: 400px;
+	&__bodytext{
+		margin-bottom: 25px;
+		color: $blanco;
+		font-size: 3em;
+		font-family: $principal;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 1.3em;
+	}
+	&__title{
+		font-size: 1.5em;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+}
+

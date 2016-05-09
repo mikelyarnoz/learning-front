@@ -1,0 +1,40 @@
+body {
+	font-size: 62.5%;
+	text-decoration: none;
+}
+
+$principal: 'Open Sans Condensed', sans-serif;
+$secundaria: 'Roboto', sans-serif;
+
+$blanco: #fff;
+$negro: #000;
+
+
+/* ----------------FUENTES---------------- */
+
+h2 {
+	color: $negro;
+	display: block;
+	text-align: center;
+	font-family: $principal;
+	padding: 80px 0px 80px 0px;
+	font-weight: bold;
+	font-size: 3em;
+	background-color: $blanco;
+	text-transform: uppercase;
+	
+}
+
+h4 {
+	color: $blanco;
+	text-align: center;
+	font-family: $secundaria;
+	font-size: 1.9em;
+	letter-spacing: 6px;
+	margin-bottom: 50px
+}
+
+h2 span {
+	border-style: solid;
+	border-width: 2px 0px;
+}

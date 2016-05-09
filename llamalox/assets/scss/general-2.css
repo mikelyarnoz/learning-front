@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a {
+  color: black; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 62.5%;
+  text-decoration: none; }
+
+/* ----------------FUENTES---------------- */
+h2 {
+  color: #000;
+  display: block;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 80px 0px 80px 0px;
+  font-weight: bold;
+  font-size: 3em;
+  background-color: #fff;
+  text-transform: uppercase; }
+
+h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9em;
+  letter-spacing: 6px;
+  margin-bottom: 50px; }
+
+h2 span {
+  border-style: solid;
+  border-width: 2px 0px; }
+
+/* general */
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .wrapper--heightocho {
+    height: 800px; }
+  .wrapper--heightseis {
+    height: 600px; }
+  .wrapper--heightcuatro {
+    height: 450px; }
+  .wrapper__box {
+    width: 100%;
+    height: 100%; }
+    .wrapper__box--three {
+      width: 33.3%;
+      float: left; }
+    .wrapper__box--two {
+      width: 50%;
+      float: left; }
+
+.welcome-content {
+  padding: 50px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  height: 600px;
+  display: block;
+  background: #000 url("../../img/unknown-6.jpeg") center no-repeat;
+  background-size: 600px width; }
+  .welcome-content__title {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.9em;
+    letter-spacing: 6px;
+    margin-bottom: 50px; }
+  .welcome-content__logo {
+    display: block;
+    background: transparent url("../../img/unknown.png") center no-repeat;
+    height: 200px;
+    text-indent: -9999px;
+    background-size: 250px 250px; }
+  .welcome-content__btn {
+    display: inline-block;
+    max-width: 100%;
+    border: 2px solid white;
+    color: #fff;
+    padding: 12px 100px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 6px;
+    opacity: 0.6;
+    margin-top: 60px;
+    text-transform: uppercase; }
+
+.btn-videoclips {
+  width: 100%;
+  height: 100%;
+  background: red;
+  display: block; }
+  .btn-videoclips__subtitle {
+    text-transform: uppercase;
+    font-size: 1.9em;
+    padding-top: 120px; }
+  .btn-videoclips__title span {
+    display: block;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px; }
+  .btn-videoclips__title em {
+    opacity: 0.9;
+    font-style: italic;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 3rem;
+    color: #fff; }
+  .btn-videoclips__button {
+    text-align: center;
+    display: block; }
+    .btn-videoclips__button span {
+      display: inline-block;
+      padding: 10px 30px;
+      margin: 50px auto;
+      font-size: 1.5em;
+      border: 2px solid white;
+      letter-spacing: 4px;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase; }
+  .btn-videoclips--video {
+    background: #000 url("../../img/unknown-5.jpeg") center no-repeat;
+    background-size: height width; }
+  .btn-videoclips--video1 {
+    background: #000 url("../../img/unknown-4.jpeg") center no-repeat;
+    background-size: height width; }
+  .btn-videoclips--video2 {
+    background: #000 url("../../img/unknown-3.jpeg") center no-repeat;
+    background-size: height width; }
+
+.wrapper__box--img {
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  background: transparent url("../../img/unknown-2.jpeg") center fixed no-repeat;
+  background-size: 100%;
+  background-color: #000; }
+
+.column {
+  padding: 100px 0 50px 0;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 400px; }
+  .column__bodytext {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 3em;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.3em; }
+  .column__title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+
+html, body {
+  height: 100%;
+  text-align: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #000; }
+
+/*# sourceMappingURL=general-2.css.map */

@@ -1,0 +1,39 @@
+.welcome-content {
+	padding: 50px 0;
+	margin: 0 auto;
+	text-align: center;
+	background-color: $negro;
+	width: 100%;
+	height: 600px;
+	display: block;
+	background: $negro url('../../img/unknown-6.jpeg') center  no-repeat;
+	background-size: 600px width;
+	&__title {
+		color: $blanco;
+		text-align: center;
+		font-family: $secundaria;
+		font-size: 1.9em;
+		letter-spacing: 6px;
+		margin-bottom: 50px
+	}
+	&__logo {
+		display: block;
+		background: transparent url('../../img/unknown.png') center  no-repeat;
+		height: 200px;
+		text-indent: -9999px;
+		background-size: 250px 250px;
+	}
+	&__btn {
+		display: inline-block;
+		max-width: 100%;
+		border: 2px solid white;
+		color: $blanco;
+		padding: 12px 100px;
+		font-family: $principal;
+		font-size: 1.4em;
+		letter-spacing: 6px;
+		opacity: 0.6;
+		margin-top: 60px;
+		text-transform: uppercase;
+	}
+}

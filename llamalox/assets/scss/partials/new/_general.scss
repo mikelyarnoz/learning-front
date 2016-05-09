@@ -1,0 +1,27 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	&--heightocho {
+		height: 800px;
+	}
+	&--heightseis {
+		height: 600px;
+	}
+	&--heightcuatro {
+		height: 450px;
+	}
+	&__box {
+		width: 100%;
+		height: 100%;
+		&--three {
+			width: 33.3%;
+			float: left;
+		}
+		&--two {
+			width: 50%;
+			float: left;
+		}
+		
+	}
+}

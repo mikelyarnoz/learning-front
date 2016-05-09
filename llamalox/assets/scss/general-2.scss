@@ -1,0 +1,17 @@
+
+@import 'partials/reset';
+@import 'partials/new/variables';
+/* general */
+
+@import 'partials/new/general';
+@import 'partials/new/welcome';
+@import 'partials/new/videoclips';
+@import 'partials/new/creditos';
+
+html, body {
+	height: 100%;
+	text-align: center;
+	max-width: 1400px;
+	margin: 0 auto;
+	background-color: $negro;
+}
