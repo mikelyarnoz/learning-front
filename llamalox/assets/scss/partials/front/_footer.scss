@@ -1,29 +1,19 @@
-/* ----------------ASIDE---------------- */
-aside {
-	overflow: hidden;
-	height: 100%;
-}
+
 .aside-box {
 	height: 100%,;
 	overflow: hidden;
 	text-align: center;
-	&__column {
-		height: 100%;
-		float: left;
-		width: 50%;
-	}
+	
 	&__btn {
-		padding-top: 300px;
 		display: block;
 		width: 100%;
 		height: 100%;
 		background: red;
-		background: #000 url('../../img/unknown-6.jpeg') center  no-repeat;
 		background-size: 600px width;
 		.bodytext {
 			font-family: $principal;
 			font-size: 2.8em;
-			color: #fff;
+			color: $blanco;
 			line-height: 170%;
 			margin-bottom: 20px;
 			a{
@@ -32,18 +22,20 @@ aside {
 			}
 		}
 		.destacado {
-			font-family: 'Roboto', sans-serif;
+			font-family: $secundaria;
 			font-size: 4em;
-			color: #fff;
+			color: $blanco;
 		}
-	}
-	.left {
-		background: #000 url('../../img/unknown.jpeg') center  no-repeat;
-		background-size: height 100%;
-	}
-	.right {
-		background: #000 url('../../img/unknown-1.jpeg') center  no-repeat;
-		background-size:  100%;
+		
+		.left {
+			background: blue !important;
+			background: #000 url('../../img/unknown.jpeg') center  no-repeat;
+			background-size: height 100%;
+		}
+		.right {
+			background: #000 url('../../img/unknown-1.jpeg') center  no-repeat;
+			background-size:  100%;
+		}
 	}	
 }
 a.logo {

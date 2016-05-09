@@ -1,19 +1,21 @@
 
-@import 'partials/reset';
-@import 'partials/new/variables';
-/* general */
-
-@import 'partials/new/general';
-@import 'partials/new/welcome';
-@import 'partials/new/videoclips';
-@import 'partials/new/creditos';
-@import 'partials/new/rwd';
-@import 'partials/new/agradecimientos';
-
+@import 'partials/general/reset';
+@import 'partials/general/variables';
+@import 'partials/general/structure';
 
 /* general */
+
+
+@import 'partials/front/welcome';
+@import 'partials/front/videoclips';
+@import 'partials/front/creditos';
+@import 'partials/front/agradecimientos';
+@import 'partials/front/footer';
+
 
 /* front */
+
+@import 'partials/rwd/rwd';
 
 /* RWD */
 
