@@ -1,0 +1,16 @@
+@media only screen and (max-width: 720px) {
+	h2 {
+		background: red !important;
+	}
+	.wrapper__box {
+		width: 100% !important;
+	}
+	.wrapper__box--img {
+		background-attachment: inherit; /* quitar versión táctil */
+		background-size: auto 100% !important;
+	}
+}
+
+@media only screen and (min-width: 14000px) {
+
+}
