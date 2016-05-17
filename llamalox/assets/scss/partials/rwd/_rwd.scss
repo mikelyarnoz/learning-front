@@ -40,6 +40,9 @@
 		height: 150%;
 	}
 	.btn-videoclips {
+		&__content {
+			margin: auto 0px;
+		}		
 		&__subtitle {
 			font-size: 1.4em;
 			padding-top: 40px;

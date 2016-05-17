@@ -327,6 +327,8 @@ a.logo {
   .wrapper {
     height: 150%; }
 
+  .btn-videoclips__content {
+    margin: auto 0px; }
   .btn-videoclips__subtitle {
     font-size: 1.4em;
     padding-top: 40px; }
